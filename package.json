@@ -1,0 +1,18 @@
+{
+  "name": "ng-seed",
+  "version": "1.0.0",
+  "description": "An angular 1.x app starter",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Vienyame EDORH-TOSSA <vienyame.edorh@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "1.7.9",
+    "http-server": "0.9.0"
+  }
+}
