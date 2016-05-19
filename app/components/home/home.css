@@ -1,0 +1,8 @@
+/*Home Stylesheet here*/
+div.content{
+  margin: 10px;
+}
+div.content .feeling-text{
+  font-weight: bold;
+  color: #204d74;
+}

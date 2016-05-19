@@ -7,7 +7,10 @@
   function HomeController(){
     var vm = this;
 
-    vm.hello = 'Hello Crépin!'
+    vm.hello = 'Hello Crépin!';
+    vm.feeling = '';
+
+
   }
 
 HomeController.$inject = [];
