@@ -5,9 +5,8 @@
   "main": "app.js",
   "scripts": {
     "postinstall": "bower install",
-
     "prestart": "npm install",
-    "start": "http-server -a localhost -p 8000 -c-1"
+    "start": "http-server -a localhost -p 8001 -c-1"
   },
   "keywords": [
     "angular"
@@ -17,5 +16,17 @@
   "devDependencies": {
     "bower": "1.7.9",
     "http-server": "0.9.0"
-  }
+  },
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "bower": "^1.7.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vienyame/ng-seed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vienyame/ng-seed/issues"
+  },
+  "homepage": "https://github.com/Vienyame/ng-seed#readme"
 }
