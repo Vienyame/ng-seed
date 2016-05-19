@@ -15,21 +15,21 @@ To get you started you can simply clone the ng-seed repository and install the d
 
 ### Prerequisites
 
-You need git to clone the angular-seed repository. You can get git from
+You need git to clone the ng-seed repository. You can get git from
 [https://github.com/Vienyame/ng-seed.git](https://github.com/Vienyame/ng-seed.git).
 
-We also use a number of node.js tools to initialize and test angular-seed. You must have node.js and its package manager (npm) installed.  You can get them from [http://nodejs.org/](http://nodejs.org/).
+We also use a number of node.js tools to initialize and test ng-seed. You must have node.js and its package manager (npm) installed.  You can get them from [http://nodejs.org/](http://nodejs.org/).
 
-### Clone angular-seed
+### Clone ng-seed
 
-Clone the angular-seed repository using [git][git]:
+Clone the ng-seed repository using [git][git]:
 
 ```
 git clone https://github.com/Vienyame/ng-seed.git
 cd ng-seed
 ```
 
-If you just want to start a new project without the angular-seed commit history then you can do:
+If you just want to start a new project without the ng-seed commit history then you can do:
 
 ```bash
 git clone --depth=1 https://github.com/Vienyame/ng-seed.git <your-project-name>
@@ -58,7 +58,7 @@ folders in your project.
 * `app/bower_components` - contains the angular framework files
 
 *Note that the `bower_components` folder would normally be installed in the root folder but
-angular-seed changes this location through the `.bowerrc` file.  Putting it in the app folder makes
+ng-seed changes this location through the `.bowerrc` file.  Putting it in the app folder makes
 it easier to serve the files by a webserver.*
 
 ### Run the Application
@@ -89,7 +89,7 @@ Coming soon...
 
 ### Running the App during Development
 
-The angular-seed project comes preconfigured with a local development webserver.  It is a node.js
+The ng-seed project comes preconfigured with a local development webserver.  It is a node.js
 tool called [http-server][http-server].  You can start this webserver with `npm start` but you may choose to
 install the tool globally:
 
