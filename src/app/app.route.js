@@ -2,7 +2,7 @@
   'use strict';
 
   angular.module('myApp')
-    .config(['$urlRouterProvider', routerConfig]);
+    .config(routerConfig);
 
   function routerConfig($urlRouterProvider) {
     $urlRouterProvider.otherwise("/")
