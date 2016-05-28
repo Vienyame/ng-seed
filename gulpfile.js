@@ -1,5 +1,5 @@
 /**
- * Created by Viényamé on 24/05/2016.
+ * Created by Viï¿½nyamï¿½ on 24/05/2016.
  *
  *  Welcome to your gulpfile!
  *  The gulp tasks are splitted in several files in the gulp directory
@@ -15,8 +15,7 @@
    * This will load all your js or coffee files int the gulp directory
    * in order to load all gulp tasks
    */
-  wrench.readdirRecursive('./gulp')
-    .filter(function (file) {
+  wrench.readdirSyncRecursive('./gulp').filter(function (file) {
       return (/\.(js|coffee)$/i).test(file);
     })
     .map(function (file) {
@@ -27,8 +26,8 @@
    * Default task clean temporaries directories and launch the main
    * optimization build task
    */
-  gulp.task('default', [clean], function () {
+  gulp.task('default', ['clean'], function () {
     gulp.start('build')
   })
 
-});
+})();

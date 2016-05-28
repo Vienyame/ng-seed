@@ -49,4 +49,4 @@
       .pipe(gulp.dest(path.join(conf.paths.tmp, '/serve/app/')));
 
   }
-});
+})();
