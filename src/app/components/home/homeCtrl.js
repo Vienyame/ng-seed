@@ -7,11 +7,10 @@
   function HomeController(){
     var vm = this;
 
-    vm.hello = 'Hello Crépin!';
+    vm.hello = 'Hello World!';
     vm.feeling = '';
-
 
   }
 
 HomeController.$inject = [];
-})()
+})();
