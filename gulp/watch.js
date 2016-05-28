@@ -32,7 +32,7 @@
       } else {
         gulp.start('inject-reload')
       }
-    })
+    });
     //watching components html files
     gulp.watch(path.join(conf.paths.src, '/app/**/*.html'), function(event){
       browserSync.reload(event.path);
