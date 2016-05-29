@@ -9,8 +9,7 @@
     'ngAria',
     'ngResource',
     'ui.router',
-    'toastr',
-
-    'myApp.home'])
+    'toastr'
+  ])
 
 })();
