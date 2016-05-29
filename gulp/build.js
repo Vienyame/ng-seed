@@ -20,7 +20,7 @@
         quotes: true
       }))
       .pipe($.angularTemplatecache('templateCacheHtml.js', {
-        module: 'projects',
+        module: 'myApp',
         root: 'app'
       }))
       .pipe(gulp.dest(conf.paths.tmp + '/partials/'));

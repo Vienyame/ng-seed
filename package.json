@@ -6,7 +6,8 @@
   "scripts": {
     "postinstall": "bower install",
     "prestart": "npm install",
-    "start": "http-server -a localhost -p 8001 -c-1"
+    "start": "http-server -a localhost -p 8000 -c-1",
+    "test": "gulp test"
   },
   "keywords": [
     "angular"
@@ -42,9 +43,19 @@
     "gulp-uglify": "1.5.3",
     "gulp-useref": "3.1.0",
     "gulp-util": "3.0.7",
+    "http-proxy-middleware": "0.15.1",
     "http-server": "0.9.0",
+    "jasmine-core": "2.4.1",
+    "karma": "0.13.22",
+    "karma-angular-filesort": "1.0.1",
+    "karma-coverage": "1.0.0",
+    "karma-jasmine": "1.0.2",
+    "karma-ng-html2js-preprocessor": "1.0.0",
+    "karma-phantomjs-launcher": "1.0.0",
     "lodash": "4.13.1",
     "main-bower-files": "2.13.1",
+    "phantomjs": "2.1.7",
+    "phantomjs-prebuilt": "2.1.7",
     "uglify-save-license": "0.4.1",
     "wiredep": "4.0.0",
     "wrench": "1.5.9"
@@ -60,5 +71,8 @@
   "bugs": {
     "url": "https://github.com/Vienyame/ng-seed/issues"
   },
-  "homepage": "https://github.com/Vienyame/ng-seed#readme"
+  "homepage": "https://github.com/Vienyame/ng-seed#readme",
+  "engines": {
+    "node": ">=0.10.0"
+  }
 }
