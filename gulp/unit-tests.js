@@ -32,6 +32,8 @@
 
     var localConfig = {
       configFile: path.join(__dirname, '/../karma.conf.js'),
+      //add th basePath line for resolving karma test error with exit code 1
+      basePath: path.join(__dirname, '/../'),
       singleRun: singleRun,
       autoWatch: !singleRun,
       reporters: reporters,
@@ -39,8 +41,12 @@
     };
 
     var server = new karma.Server(localConfig, function(failCount) {
-      done(failCount ? new Error("Failed " + failCount + " tests.") : null);
+      done(failCount ? -new Error("Failed " + failCount + " tests.") : null);
     });
+    /*var server = new karma.Server(localConfig, function(error) {
+      error = error ? new Error('Karma returned with the error code: ' + error): undefined;
+      done(error);
+    });*/
     server.start();
   }
 

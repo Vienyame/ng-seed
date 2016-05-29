@@ -4,8 +4,8 @@
   angular.module('myApp.home',[])
   .config(homeConfig);
 
-  function homeConfig($state){
-      $state
+  function homeConfig($stateProvider){
+    $stateProvider
       .state('home', {
         url: "/",
         templateUrl: "app/components/home/home.html",
