@@ -5,7 +5,7 @@
     .config(routerConfig);
 
   function routerConfig($urlRouterProvider) {
-    $urlRouterProvider.otherwise("/")
+    $urlRouterProvider.otherwise('/');
   }
   routerConfig.$inject = ['$urlRouterProvider'];
 })();

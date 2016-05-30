@@ -14,7 +14,7 @@
       .pipe(browserSync.stream());
   });
 
-  gulp.task('scripts', function() {
+  gulp.task('scripts',['jshint'], function() {
     return buildScripts();
   });
 
