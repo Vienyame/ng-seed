@@ -5,7 +5,6 @@
   var path = require('path');
   var gulp = require('gulp');
   var conf = require('./conf');
-  var gulpDocs = require('gulp-ngdocs');
 
   var $ = require('gulp-load-plugins')();
 
@@ -16,14 +15,21 @@
 
   var docsOptions = {
     scripts: [
-      '../app.min.js'
+     // '../app.min.js',path.join(conf.paths.dist,'/scripts/app.route.js')
+/*      'bower_components/angular/angular.min.js',
+      'bower_components/angular/angular.min.js.map',
+      'bower_components/angular-animate/angular-animate.min.js',
+      'bower_components/angular-animate/angular-animate.min.js.map',*/
+
+      'http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js',
+      'http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-animate.min.js'
     ],
     html5Mode: true,
-    startPage: '/api',
+    startPage: '/ng-seed-doc',
     title: "ng-seed documentation",
     image: "path/to/my/image.png",
-    imageLink: "http://my-domain.com",
-    titleLink: "/api"
+    imageLink: "http://localhost:3000",
+    titleLink: "http://localhost:3000/"
   };
 
   gulp.task('doc-reload', ['doc'], function() {
