@@ -10,6 +10,6 @@
     'ngResource',
     'ui.router',
     'toastr'
-  ])
+  ]);
 
 })();

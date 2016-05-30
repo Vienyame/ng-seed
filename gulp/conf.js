@@ -15,7 +15,9 @@
     src: 'src',
     dist: 'www',
     tmp: '.tmp',
-    e2e: 'e2e'
+    e2e: 'e2e',
+    plato: 'report/plato',
+    docs: 'docs'
   };
 
   /**
