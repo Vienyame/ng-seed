@@ -32,7 +32,7 @@
 
     var localConfig = {
       configFile: path.join(__dirname, '/../karma.conf.js'),
-      //add th basePath line for resolving karma test error with exit code 1
+      //add the basePath line for resolving karma test error with exit code 1
       basePath: path.join(__dirname, '/../'),
       singleRun: singleRun,
       autoWatch: !singleRun,
