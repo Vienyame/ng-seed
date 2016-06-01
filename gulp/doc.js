@@ -30,8 +30,8 @@
     startPage: '/ng-seed-doc',
     title: "ng-seed documentation",
     image: "path/to/my/image.png",
-    imageLink: "http://localhost:3000",
-    titleLink: "http://localhost:3000/"
+    imageLink: "/",
+    titleLink: "/ng-seed/docs/ng-seed-doc"
   };
 
   gulp.task('doc-reload', ['doc'], function() {
