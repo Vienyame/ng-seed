@@ -44,26 +44,18 @@
 
     var configuration = {
       files: listFiles(),
-
       singleRun: true,
-
       autoWatch: false,
-
       ngHtml2JsPreprocessor: {
         stripPrefix: conf.paths.src + '/',
         moduleName: 'myApp'
       },
-
       logLevel: 'WARN',
-
       frameworks: ['jasmine', 'angular-filesort'],
-
       angularFilesort: {
         whitelist: [path.join(conf.paths.src, '/**/!(*.html|*.spec|*.mock).js')]
       },
-
       browsers: ['PhantomJS'],
-
       plugins: [
         'karma-phantomjs-launcher',
         'karma-angular-filesort',
@@ -71,14 +63,11 @@
         'karma-jasmine',
         'karma-ng-html2js-preprocessor'
       ],
-
       coverageReporter: {
         type: 'html',
         dir: 'coverage/'
       },
-
       reporters: ['progress'],
-
       proxies: {
         '/assets/': path.join('/base/', conf.paths.src, '/assets/')
       }
