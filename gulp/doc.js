@@ -16,13 +16,15 @@
   var docsOptions = {
     scripts: [
      // '../app.min.js',path.join(conf.paths.dist,'/scripts/app.route.js')
-/*      'bower_components/angular/angular.min.js',
+      'bower_components/angular/angular.min.js',
       'bower_components/angular/angular.min.js.map',
       'bower_components/angular-animate/angular-animate.min.js',
-      'bower_components/angular-animate/angular-animate.min.js.map',*/
+      'bower_components/angular-animate/angular-animate.min.js.map',
 
-      'http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js',
-      'http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-animate.min.js'
+      'https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.js'
+
+/*      'http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js',
+      'http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-animate.min.js'*/
     ],
     html5Mode: true,
     startPage: '/ng-seed-doc',
