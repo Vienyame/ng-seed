@@ -128,6 +128,10 @@ For more information on AngularJS please check out http://angularjs.org/
 
 For more information about this ng-seed contact Vienyame : [vienyame.edorh@gmail.com](vienyame.edorh@gmail.com)
 
+## License
+
+MIT
+
 [git]: http://git-scm.com/
 [bower]: http://bower.io
 [npm]: https://www.npmjs.org/
