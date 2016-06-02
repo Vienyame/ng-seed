@@ -9,8 +9,8 @@
    * @ngdoc controller
    * @name myApp.controller:MainController
    * @description
-   * @example
    * ng-seed main controller
+   * @example
    */
   function MainController() {
     var vm = this;

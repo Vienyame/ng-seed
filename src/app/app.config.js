@@ -3,10 +3,10 @@
 
   angular
     .module('myApp')
-    .config(config);
+    .config(appConfig);
 
   /** @ngInject */
-  function config($logProvider) {
+  function appConfig($logProvider) {
     // Enable log
     $logProvider.debugEnabled(true);
 
