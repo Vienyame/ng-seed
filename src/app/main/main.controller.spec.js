@@ -1,9 +1,7 @@
 (function() {
   'use strict';
 
-  describe('controllers', controllers);
-
-  function controllers() {
+  describe('controllers', function () {
     var vm;
 
     beforeEach(module('myApp'));
@@ -17,5 +15,5 @@
       expect(vm.hello).toEqual('Hello World!');
     });
 
-  }
+  });
 })();
