@@ -1,0 +1,13 @@
+{
+  "ng-seed": {
+    "version": "1.0.0",
+    "props": {
+      "paths": {
+        "src": "src",
+        "dist": "dist",
+        "e2e": "e2e",
+        "tmp": ".tmp"
+      }
+    }
+  }
+}
