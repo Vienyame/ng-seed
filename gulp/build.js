@@ -37,13 +37,13 @@
     var htmlFilter = $.filter('*.html', {restore: true});
     var jsFilter = $.filter('**/*.js', {restore: true});
     var cssFilter = $.filter('**/*.css', {restore: true});
-    //uncomment if you use useref v2
-    //var assets;
+    //comment if you use useref v2
+    var assets;
 
     return gulp.src(path.join(conf.paths.tmp, '/serve/*.html'))
       .pipe($.inject(partialsInjectFile, partialsInjectOptions))
-      //uncomment if you use useref v2
-      //.pipe(assets = $.useref.assets())
+      //comment if you use useref v2
+      .pipe(assets = $.useref.assets())
       .pipe($.rev())
       .pipe(jsFilter)
       .pipe($.sourcemaps.init())
@@ -57,8 +57,8 @@
       .pipe($.minifyCss({processImport: false}))
       .pipe($.sourcemaps.write('maps'))
       .pipe(cssFilter.restore)
-      //uncomment if you use useref v2
-      //.pipe(assets.restore())
+      //comment if you use useref v2
+      .pipe(assets.restore())
       .pipe($.useref())
       .pipe($.revReplace())
       .pipe(htmlFilter)

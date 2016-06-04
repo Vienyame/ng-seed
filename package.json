@@ -45,7 +45,7 @@
     "gulp-size": "2.1.0",
     "gulp-sourcemaps": "1.6.0",
     "gulp-uglify": "1.5.3",
-    "gulp-useref": "3.1.0",
+    "gulp-useref": "1.3.0",
     "gulp-util": "3.0.7",
     "http-proxy-middleware": "0.15.1",
     "http-server": "0.9.0",
@@ -67,8 +67,8 @@
     "wrench": "1.5.9"
   },
   "dependencies": {
-    "http-server": "^0.9.0",
-    "bower": "^1.7.9"
+    "bower": "^1.7.9",
+    "http-server": "^0.9.0"
   },
   "repository": {
     "type": "git",
