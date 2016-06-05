@@ -1,6 +1,6 @@
 'use strict';
 
-var paths = require('./protactor.conf.json')['ng-seed'].props.paths;
+var paths = require('./protactor.conf.json')['ng-seed'].paths;
 
 // An example configuration file.
 exports.config = {
