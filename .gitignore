@@ -6,12 +6,5 @@ bower_components/
 www/
 coverage/
 docs/
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-=======
 report/
->>>>>>> master
-=======
-report/
->>>>>>> Stashed changes
 deploy/

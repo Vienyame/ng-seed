@@ -20,6 +20,7 @@
       path.join(conf.paths.src, '/app/**/*.scss')
     ], function(event) {
       if (isOnlyChange(event)) {
+        gulp.start('scss-lint--reload');
         gulp.start('styles-reload')
       } else {
         gulp.start('inject-reload');
@@ -28,7 +29,8 @@
     //watching js files
     gulp.watch(path.join(conf.paths.src, '/app/**/*.js'), function(event) {
       if (isOnlyChange(event)) {
-        gulp.start('jshint-reload');
+        gulp.start('js-hint-reload');
+        gulp.start('es-lint-reload');
         gulp.start('scripts-reload');
       } else {
         gulp.start('inject-reload')

@@ -19,6 +19,12 @@
     plato: 'report/plato',
     docs: 'docs',
     deploy: 'deploy',
+    js: [
+      'src/**/*.js',
+      '!src/**/*.specs.js'
+    ],
+    scss: 'src/app/**/*.scss',
+    html: 'src/**/*.html'
   };
 
   /**
