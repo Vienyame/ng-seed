@@ -1,5 +1,5 @@
 /**
- * Created by Vi�nyam� on 24/05/2016.
+ * Created by Vienyame on 24/05/2016.
  *
  *  Welcome to your gulpfile!
  *  The gulp tasks are splitted in several files in the gulp directory

@@ -67,7 +67,7 @@ We have preconfigured the project with a simple development web server.  The sim
 this server is:
 
 ```
-npm start
+gulp serve
 ```
 
 Now browse to the app at `http://localhost:8000/app/index.html`.
@@ -79,12 +79,17 @@ coming soon...
 
 ### Running Unit Tests
 
-Coming soon...
+```
+gulp test
+```
 
 
 ### End to end testing
 
-Coming soon...
+```
+gulp serve:e2e
+gulp protractor
+```
 
 
 ### Running the App during Development
@@ -127,6 +132,10 @@ reverse-proxying the backend server(s) and webserver(s).
 For more information on AngularJS please check out http://angularjs.org/
 
 For more information about this ng-seed contact Vienyame : [vienyame.edorh@gmail.com](vienyame.edorh@gmail.com)
+
+## License
+
+MIT
 
 [git]: http://git-scm.com/
 [bower]: http://bower.io
