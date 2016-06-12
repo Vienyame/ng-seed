@@ -26,7 +26,7 @@
       .pipe(gulp.dest(conf.paths.tmp + '/partials/'));
   });
 
-  gulp.task('html', ['inject', 'partials'], function() {
+  gulp.task('html', ['inject', 'partials','html-hint'], function() {
     var partialsInjectFile = gulp.src(path.join(conf.paths.tmp, '/partials/templateCacheHtml.js'), {read: false});
     var partialsInjectOptions = {
       starttag: '<!-- inject:partials -->',

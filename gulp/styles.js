@@ -17,7 +17,9 @@
       .pipe(browserSync.stream());
   });
 
-  gulp.task('styles', function() {
+  gulp.task('styles',[
+    //'scss-lint'
+  ], function() {
     return buildStyles()
   });
 

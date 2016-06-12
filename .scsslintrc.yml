@@ -18,6 +18,7 @@ linters:
 
   Comment:
     enabled: true
+    exclude: '**/*.css'
 
   DebugStatement:
     enabled: true
@@ -69,7 +70,7 @@ linters:
     enabled: true
     allow_non_nested_indentation: false
     character: space # or 'tab'
-    width: 4
+    width: 2
 
   LeadingZero:
     enabled: true

@@ -23,7 +23,7 @@
       'src/**/*.js',
       '!src/**/*.specs.js'
     ],
-    scss: 'src/**/*.scss',
+    scss: 'src/app/**/*.scss',
     html: 'src/**/*.html'
   };
 
