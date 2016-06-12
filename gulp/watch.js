@@ -28,7 +28,7 @@
     //watching js files
     gulp.watch(path.join(conf.paths.src, '/app/**/*.js'), function(event) {
       if (isOnlyChange(event)) {
-        gulp.start('jshint-reload');
+        gulp.start('lint-reload');
         gulp.start('scripts-reload');
       } else {
         gulp.start('inject-reload')

@@ -17,7 +17,14 @@
     tmp: '.tmp',
     e2e: 'e2e',
     plato: 'report/plato',
-    docs: 'docs'
+    docs: 'docs',
+    deploy: 'deploy',
+    js: [
+      'src/**/*.js',
+      '!src/**/*.specs.js'
+    ],
+    scss: 'src/**/*.scss',
+    html: 'src/**/*.html'
   };
 
   /**
